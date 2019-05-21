@@ -14,6 +14,7 @@ button.addEventListener("click", function () {
 
         var li = document.createElement("li")
         li.classList.add("list-group-item")
+        li.innerHtml=(i);
         ul.appendChild(li);
     }
 })
